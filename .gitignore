@@ -1,0 +1,20 @@
+# Oyun dosyaları (asla commit'lenmez)
+*.dll
+*.pck
+*.pdb
+
+# sts2-cli (kopyalanan + patch'lenen DLL'ler burada)
+external/
+
+# ILSpy çıktısı, sadece yerelde okumak için
+decompiled/
+
+# Ham veri: sts2-cli logları, .run kopyaları
+logs/
+data/raw/
+
+# Yerel ayarlar (oyun yolu vb.)
+.env
+config.local.*
+CLAUDE.md
+PLAN.md
